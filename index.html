@@ -27,9 +27,21 @@
             display: inline-block;
             border-radius: 10px;
             background-color: aquamarine;
+            margin-bottom: 30px;
         }
         #matematik:hover{
             background-color: rgb(77, 205, 162);
+        }
+        #randomil{
+            margin-bottom: 30px;
+            padding: 10px;
+            border: 3px solid;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: rgb(0, 0, 255);
+        }
+        #randomil:hover{
+            background-color: rgb(0, 0, 205);
         }
         a{
             color: red;
@@ -67,12 +79,36 @@ ssdeğişken d = mt(5);
 ssyazdır(d);
 elhamdülillah</pre> <hr>
 <center>
-<a href="https://turkum-webci.github.io/sskutuphaneler/random.seairsc" style="font-size: 12px;">https://turkum-webci.github.io/sskutuphaneler/random.seairsc</a>
+<a href="https://turkum-webci.github.io/sskutuphaneler/random.seairsc" style="font-size: 10px;">https://turkum-webci.github.io/sskutuphaneler/random.seairsc</a>
+</center>
+</div>
+<div id="randomil">
+        <center>
+    <h4>Random İl kütüphanesi: </h4> <hr>
+    </center>
+    <pre class="kod">bismillah
+ssdeğişken kütüphaneadi2 = "Random İl Kütüphanesi";
+ssdeğişken yazi2 = kütüphaneadi2 + " Çalıştırılıyor";
+ssyazdır(yazi2);
+ssfonksiyon randomil(){
+ssdeğişken iller = ⌞"İstanbul"→"İzmir"→"Ankara"→"Kocaeli"→"Bursa"→"Ordu"→"Sivas"→"Manisa"→
+"Trabzon"→"Edirne"→"Karabük"→"Erzincan"→"Burdur"→"Batman"⌝;
+ssdeğişken random1 = ssmatematik.rastgele();
+ssdeğişken illeruzunluk = sscetvel(iller);
+ssdeğişken random3 = random1 * illeruzunluk;
+ssdeğişken random2 = ssmatematik.yukari(random3);
+ssdeğişken random = random2 - 1;
+ssdeğişken secili = iller⌞random⌝;
+ssdöndür secili;
+}
+elhamdülillah</pre> <hr>
+<center>
+<a href="https://turkum-webci.github.io/sskutuphaneler/randomil.seairsc" style="font-size: 10px;">https://turkum-webci.github.io/sskutuphaneler/randomil.seairsc</a>
 </center>
 </div>
 <script>
     function CPY1(){
-        var cpy = "ssfonksiyon mt(n){\nssdeğişken a = ssmatematik.rastgele();\nssdeğişken b = a * n;\nssdeğişken c = ssmatematik.yuvarla(b);\nssdöndür c;\n}\nssdeğişken d = mt(5);\nssyazdır(c);\nelhamdülillah";
+        var cpy = "bismillah\nssfonksiyon mt(n){\nssdeğişken a = ssmatematik.rastgele();\nssdeğişken b = a * n;\nssdeğişken c = ssmatematik.yuvarla(b);\nssdöndür c;\n}\nssdeğişken d = mt(5);\nssyazdır(c);\nelhamdülillah";
         navigator.clipboard.writeText(cpy);
     }
 </script>

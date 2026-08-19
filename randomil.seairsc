@@ -1,0 +1,15 @@
+bismillah
+ssdeğişken kütüphaneadi2 = "Random İl Kütüphanesi";
+ssdeğişken yazi2 = kütüphaneadi2 + " Çalıştırılıyor";
+ssyazdır(yazi2);
+ssfonksiyon randomil(){
+ssdeğişken iller = ⌞"İstanbul"→"İzmir"→"Ankara"→"Kocaeli"→"Bursa"→"Ordu"→"Sivas"→"Manisa"→"Trabzon"→"Edirne"→"Karabük"→"Erzincan"→"Burdur"→"Batman"⌝;
+ssdeğişken random1 = ssmatematik.rastgele();
+ssdeğişken illeruzunluk = sscetvel(iller);
+ssdeğişken random3 = random1 * illeruzunluk;
+ssdeğişken random2 = ssmatematik.yukari(random3);
+ssdeğişken random = random2 - 1;
+ssdeğişken secili = iller⌞random⌝;
+ssdöndür secili;
+}
+elhamdülillah
