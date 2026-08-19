@@ -1,0 +1,11 @@
+bismillah
+ssdeğişken kütüphaneadi = "Random Kütüphanesi";
+ssdeğişken yazi = kütüphaneadi + " Çalıştırılıyor";
+ssyazdır(yazi);
+ssfonksiyon mt(n){
+    ssdeğişken a = ssmatematik.rastgele();
+    ssdeğişken b = b * n;
+    ssdeğişken c = ssmatematik.yuvarla(b);
+    ssdöndür c;
+}
+elhamdülillah
