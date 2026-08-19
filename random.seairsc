@@ -4,7 +4,7 @@ ssdeğişken yazi = kütüphaneadi + " Çalıştırılıyor";
 ssyazdır(yazi);
 ssfonksiyon mt(n){
     ssdeğişken a = ssmatematik.rastgele();
-    ssdeğişken b = b * n;
+    ssdeğişken b = a * n;
     ssdeğişken c = ssmatematik.yuvarla(b);
     ssdöndür c;
 }
